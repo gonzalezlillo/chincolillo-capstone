@@ -1,0 +1,43 @@
+/*
+Theme Name: ChincoLillo
+Description: Theme for ChincoLillo.cl website
+Version: 1.0.0
+Author: Rodrigo González Lillo
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+    /* background-color: brown; */
+}
+
+header {
+    background-color: #f3f7fb;
+}
+
+#logo {
+    /* background-color: cornflowerblue; */
+    max-width:150px;
+    width: 100%;
+}
+
+#titulos {
+    /* background-color: darkkhaki; */
+    width: 100%; 
+}
+
+.h1-header {
+    /* font-size: 120%; */
+    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.h2-header {
+    /* font-size: 80%; */
+}
+
+.h3-header {
+    color:#555555;
+    font-size:150%;
+}
