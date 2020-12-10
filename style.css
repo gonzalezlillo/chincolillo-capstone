@@ -7,37 +7,334 @@ Author: Rodrigo González Lillo
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-body {
-    /* background-color: brown; */
+footer {
+    background-color: #2a3a4d;
+    color:white;
+    padding: 0.5em;
+
 }
 
-header {
+#boton-menu {
+    color: #FFFFFF;
+}
+
+#carouselButton {
+    background-color: #2a3a4d;
+    bottom:1.5em;
+    color:white;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+#footer-copy {
+    font-size: 1.2em;
+    padding:0.5em;
+    text-align: center;
+}
+
+#footer-social {
+    text-align: center;
+}
+
+#footer-social i.fab {
+    color:white;
+    font-size: 1.8em;
+    
+}
+
+#header-sup {
     background-color: #f3f7fb;
 }
 
-#logo {
-    /* background-color: cornflowerblue; */
-    max-width:150px;
-    width: 100%;
+#header-sup a {
+    color:black;
+    text-decoration: none;
 }
 
-#titulos {
-    /* background-color: darkkhaki; */
-    width: 100%; 
+#info-bird {
+    text-align: left;
+}
+
+#info-bird table {
+    border:1px solid #555555;
+}
+
+#logo {
+    display: inline-block;
+    margin: 0.1em 0.4em 0.1em 0;
+    max-height: 4em;
+    max-width: 4em;
+}
+
+#nav-header {
+    background-color: #2a3a4d;
+    margin-bottom:0.3em;
+    padding: 0;
+}
+
+#nav-header ul li {
+    font-size: 120%;
+    margin:0 4em;
+}
+
+#nav-header a {
+    color: #FFFFFF;
+
+    font-weight: bold;
+}
+
+#nav-header a:hover {
+    color:#769dc3;
+}
+
+
+/****************** Bootstrap Classes ***************/
+
+.breadcrumb {
+    background-color: white;
+}
+
+.breadcrumb a {
+    color:black;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color:#3a2095;
+    text-decoration: none;
+}
+
+.card {
+    margin:0 1.2em 1.5em 1.2em;
+    padding: 0;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.carousel-indicators {
+    left:1em;
+    position:relative;
+    top:0em;
+}
+
+.carousel-indicators li {
+    background-color:#555555;
+    border-radius: 100%;
+    height: 15px;
+    margin:0 1em;
+    width: 15px;
+  }
+
+.carousel-indicators li.active {
+    background-color: #2a3a4d;
+}
+
+.carousel-item img {
+    max-height: 98vh;
+}
+
+
+/************** MY CLASSES *************************/
+
+.bio-img {
+    float: left;
+    margin:0 1em 1em 0;
+    max-width: 300px;
+}
+
+.body-page p {
+    font-size: 120%;
+}
+
+.car-home {
+    margin:0 -25px;
+    display: inline-block;
+}
+
+.car-txt-home {
+    float:none;
+    margin:0.1em auto;
+    text-align: center;
+}
+
+.form-campo {
+    font-weight: bold;
+    margin-bottom: -0.5em;
+}
+
+.form-entrada-contacto {
+    max-width: 100%;
+    width: 500px;
+}
+
+.form-obligatorio {
+    color:red;
 }
 
 .h1-header {
-    /* font-size: 120%; */
-    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-family: 'Dancing Script', Arial, cursive, Helvetica, sans-serif;
     font-weight: bold;
+    font-size:290%;
+    margin:0;
+    padding: 0;
+}
 
+.h1-main {
+    display: block;
+    font-family: 'Dancing Script', Arial, cursive, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:310%;
+    margin:-0.5em auto 1em auto;
+    padding: 0;
+    text-align: center;
+}
+
+.h1-404 {
+    font-size:300%;
+    margin:2em 0;
+    text-align: center;
 }
 
 .h2-header {
-    /* font-size: 80%; */
+    margin-left:1em;
+    position: relative;
+    top:0.7em;
+   
+}
+
+.h2-card {
+    font-size: 150%;
 }
 
 .h3-header {
     color:#555555;
-    font-size:150%;
+    font-size:100%;
+    margin-left:1em;
+    position: relative;
+    top:0.8em;
 }
+
+.img-card {
+    float:left;
+    width: 100%;
+}
+
+.nav-aves a {
+    color:black;
+    text-decoration: none;
+}
+
+.nav-aves a:hover {
+    color:#3a2095;
+    text-decoration: none;
+}
+
+.nav-aves a:hover h2 {
+    font-weight: bold;
+}
+
+.p-home {
+    background-color: rgb(155, 206, 155);
+    /* background-color: #f3f7fb; */
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin:-15px -25px 0 -25px;
+    text-align: center;
+}
+
+.p-link {
+    color:#3a2095;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.p-link:hover {
+    color:#0e023b;
+    text-decoration: underline;
+}
+
+.p-404 {
+    font-size: 200%;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.txt-home {
+    display: inline-block;
+}
+
+.video-card {
+    display: none;
+    float:left;
+    width: 100%;
+}
+
+.video-responsive {
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 56.25%;
+}
+.video-responsive video {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 99%;
+    height: 99%;
+}
+
+/*************** SM BREAKPOINT *********************/
+@media (min-width: 576px) {
+    #carouselButton {
+        bottom:1.2em;
+        font-size: 1.4em;
+    }
+    .h2-header {
+        font-size:130%;
+    }
+  }
+  
+  /*************** MD BREAKPOINT *********************/
+ @media (min-width: 768px) {
+    #nav-header ul li {
+        font-size: 110%;
+        margin:0 2.5em;
+    }
+    .h2-header {
+        font-size:150%;
+        top:0.5em;
+    }
+    .video-responsive iframe {
+        width: 90%;
+    }
+  }
+  
+  /*************** LG BREAKPOINT *********************/
+  @media (min-width: 992px) {
+    #nav-header ul li {
+        font-size: 140%;
+    }
+    .h2-header {
+        margin-left: 2em;
+    }
+    .p-home {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+  }
+
+  /*************** XL BREAKPOINT *********************/
+  @media (min-width: 1200px) {
+    #nav-header ul li {
+        margin:0 4em;
+    }
+    .p-home {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin:0 -25px 0 0;
+        padding:0.8em;
+    }
+  }
